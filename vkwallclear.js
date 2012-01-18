@@ -1,4 +1,4 @@
-// javascript:(function(){document.body.appendChild(document.createElement('script')).setAttribute('src','http://yourjavascript.com/87121115115/vkwallclear.js')})();
+// javascript:(function(){document.body.appendChild(document.createElement('script')).setAttribute('src','http://cloud.github.com/downloads/eip/js/vkwallclear.js')})();
 myWall = {
   curId : 0,
   maxId : 0,
@@ -15,7 +15,7 @@ myWall = {
     elm.appendChild(document.createTextNode('Оставить первые '));
     elm = box.appendChild(document.createElement('input'));
     elm.size = 1;
-    elm.value = '3';
+    elm.value = '1';
     elm.setAttribute('id', 'leave_first');
     elm.setAttribute('type', 'text');
     elm.setAttribute('class', 'text');
@@ -23,7 +23,7 @@ myWall = {
     elm.appendChild(document.createTextNode(' и последние '));
     elm = box.appendChild(document.createElement('input'));
     elm.size = 1;
-    elm.value = '3';
+    elm.value = '1';
     elm.setAttribute('id', 'leave_last');
     elm.setAttribute('type', 'text');
     elm.setAttribute('class', 'text');
